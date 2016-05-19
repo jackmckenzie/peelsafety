@@ -1,0 +1,39 @@
+// Requirements
+// ============
+
+@import "susy";
+
+$susy: (
+  columns: 6,
+  column-width: 70px,
+  gutters: 30px/70px,
+  debug: (image:show)
+);
+
+// $susy: (
+//   columns: 12,
+//   column-width: 70px,
+//   gutters: 30px/70px,
+//   debug: (image:show)
+// );
+
+$susy-sml: (
+	columns: 8,
+	column-width: 70px,
+	gutters: 30/70px,
+	debug: (image:show)
+);
+
+$susy-md: (
+	columns: 10,
+	column-width: 70px,
+	gutters: 30/70px,
+	debug: (image:show)
+);
+
+$susy-lg: (
+	columns: 12,
+	column-width: 70px,
+	gutters: 30/70px,
+	debug: (image:show)
+);

@@ -1,0 +1,78 @@
+.topbar
+	display: none
+	@include breakpoint($bp-sml)
+		display: block
+	min-height: 50px 
+	margin: 0
+	padding: 0
+	background-color: $psi-red-s
+	
+.contact-list
+	@include span(last 1 of 6)
+	@include breakpoint($bp-sml)
+		@include span(last 1 of 8)
+	@include breakpoint($bp-md)
+		@include span(last 1 of 10)
+	@include breakpoint($bp-lg)
+		@include span(last 1 of 12)
+	// padding: 15px 0
+	
+	a
+		@include span(0.25 of 1)
+			&:last-child
+				@include span(0.25 last of 1)
+		text-decoration: none
+		color: $psi-white
+		cursor: pointer
+		@include breakpoint($bp-sml)
+			margin: 0
+			padding: 0
+			float: none
+
+		
+		i
+			padding: 15px 0
+	
+.top-header
+	// background-color: #ddd
+	@include clearfix
+	padding: 0
+	margin: 0
+	
+.header-brand
+	@include span(2 of 6)
+	padding: 15px 0
+	// margin: 0 auto
+	@include breakpoint($bp-sml)
+		@include span(2 of 8)
+	@include breakpoint($bp-md)
+		@include span(2 of 10)
+	@include breakpoint($bp-lg)
+		@include span(2 of 12)
+.main-nav
+	margin-top: 4em
+	// background-color: blue 
+	@include span(last 4 of 6)
+	@include breakpoint($bp-sml)
+		@include span(last 4 of 8)
+	@include breakpoint($bp-md)
+		@include span(last 4 of 10)
+	@include breakpoint($bp-lg)
+		@include span(last 4 of 12)
+	
+	li
+		// display: inline-block
+		cursor: pointer
+		// background-color: red 
+		@include span(1 of 4)
+		&:last-child
+			@include span(last 1 of 4)
+		
+		a
+			color: $psi-white
+			display: block
+			text-align: right
+			// background-color: yellow 
+			
+			&:hover, &:active
+				color: $psi-yellow

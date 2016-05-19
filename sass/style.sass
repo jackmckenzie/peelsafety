@@ -1,0 +1,41 @@
+// Screen
+// ======
+@import "compass"
+@import "breakpoint"
+@import "compass/reset"
+
+@import "base/variables"
+@import "base/typography"
+
+@import "layout/grids"
+
+@import "modules/main-area"
+@import "modules/topbar"
+*
+	@include box-sizing(border-box)
+body
+	background-color: $psi-red
+.wrapper
+	@include container(6)
+	@include box-sizing(content-box)
+	@include breakpoint($bp-sml)
+		@include container(8)
+	@include breakpoint($bp-md)
+		@include container(10)
+	@include breakpoint($bp-lg)
+		@include container(12)
+	
+	padding-left: 15px
+	padding-right: 15px 
+	@include clearfix
+	// background-color: #ccc
+
+
+
+	// margin: 0 auto
+	// @include breakpoint($bp-sml)
+	// 	@include span(3)
+	// @include breakpoint($bp-md)
+	// 	@include span(2)
+	// @include breakpoint($bp-lg)
+	// 	@include span(wide 1)
