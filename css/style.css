@@ -154,6 +154,7 @@ a {
 .main-area {
   background-color: #edf1f4;
   height: 100vh;
+  width: 1200px;
   padding-top: 1.5em;
   margin: 0 auto;
 }
@@ -323,19 +324,19 @@ a {
   color: #fbf6a6;
 }
 
-/* line 16, ../sass/style.sass */
+/* line 15, ../sass/style.sass */
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 19, ../sass/style.sass */
+/* line 18, ../sass/style.sass */
 body {
   background-color: #5a1e25;
 }
 
-/* line 25, ../sass/style.sass */
+/* line 24, ../sass/style.sass */
 .wrapper {
   max-width: 570px;
   margin-left: auto;
@@ -355,7 +356,7 @@ body {
   clear: both;
 }
 @media (min-width: 768px) {
-  /* line 25, ../sass/style.sass */
+  /* line 24, ../sass/style.sass */
   .wrapper {
     max-width: 770px;
     margin-left: auto;
@@ -369,7 +370,7 @@ body {
   }
 }
 @media (min-width: 992px) {
-  /* line 25, ../sass/style.sass */
+  /* line 24, ../sass/style.sass */
   .wrapper {
     max-width: 970px;
     margin-left: auto;
@@ -383,7 +384,7 @@ body {
   }
 }
 @media (min-width: 1200px) {
-  /* line 25, ../sass/style.sass */
+  /* line 24, ../sass/style.sass */
   .wrapper {
     max-width: 1170px;
     margin-left: auto;
