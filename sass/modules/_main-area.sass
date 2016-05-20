@@ -1,11 +1,16 @@
 .main-area
 	background-color: $psi-white
 	height: 100vh
-	max-width: 1200px
+	max-width: 100%
 	// width: $bp-sml
 	padding-top: 1.5em
 	margin: 0 auto
-	
+	@include breakpoint($bp-sml)
+		max-width: 800px
+	@include breakpoint($bp-md)
+		max-width: 1000px
+	@include breakpoint($bp-lg)
+		max-width: 1200px
 	p
 		// margin: 0
 		// padding: 0
