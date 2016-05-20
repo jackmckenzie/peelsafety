@@ -154,7 +154,7 @@ a {
 .main-area {
   background-color: #edf1f4;
   height: 100vh;
-  width: 1200px;
+  max-width: 1200px;
   padding-top: 1.5em;
   margin: 0 auto;
 }
