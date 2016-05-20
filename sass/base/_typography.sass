@@ -1,12 +1,67 @@
+$light: 300
+$regular: 400
+$bold: 700
+
 $base-font-size: 16px
-$base-line-height: 1.4
-$base-font-family: $oxygen
+$base-line-height: 1.5
+$base-font-family: $noto
+
+$header-font-family: $oxygen
+$header-font-weight: $bold
+
+
 
 body
 	font-family: $base-font-family
 	font-size: $base-font-size
 	line-height: $base-line-height
 
+h1, h2, h3, h4, h5, h6, p
+	background-color: rgba(100,100,100,0.25)
+h1, h2, h3, h4, h5, h6
+	font-family: $header-font-family 
+	font-weight: $header-font-weight
+	margin: 0 
+h1
+	font-size: 3em
+	line-height: 1
+	margin-bottom: 0.5em
+h2
+	font-size: 36px
+	line-height: 48px
+	margin-bottom: 0.666666666em
+h3
+	font-size: 1.5em
+	line-height: 1
+	margin-bottom: 1em
+h4
+	font-size: 1.3125em 
+	line-height: 1.142857142
+	margin-bottom: 1.142857142em
+h5
+	font-size: 1.125em
+	line-height: 1.333333333
+	margin-bottom: 1.333333333em
+h6
+	font-size: 1em
+	line-height: 1.5
+	margin-bottom: 1.5em 
+p
+	font-size: 1em
+	line-height: 1.5
+	margin-bottom: 1.5em
+blockquote
+	background-color: rgba(150,150,150,0.5)
+	padding-top: 1.5em
+	padding-bottom: 1.5em
+	border-left: 2px solid black
+	border-right: 2px solid black
+	padding-left: 1em
+	padding-right: 1em
+	margin-bottom: 1.5em 
+	p
+		margin: 0
 a
 	text-decoration: none
 	color: $psi-red
+	
