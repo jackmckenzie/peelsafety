@@ -6,6 +6,23 @@
 	margin: 0
 	// padding: 1.5em 0
 	background-color: $psi-red-s
+
+.top-info
+	font-size: 0.8em /* 12.8px */
+	font-style: italic 
+	color: $psi-yellow
+	line-height: 1.875em
+	margin-bottom: 0
+	margin-top: (1.5em) / 2
+	margin-bottom: (1.5em) / 2
+	@include span (2 of 6)
+	@include breakpoint($bp-sml)
+		@include span(3 of 8)
+	@include breakpoint($bp-md)
+		@include span(3 of 10)
+	@include breakpoint($bp-lg)
+		@include span(3 of 12)
+	
 	
 .contact-list
 	margin-top: (1.5em) / 2
@@ -20,17 +37,14 @@
 	// padding: 15px 0
 	
 	a
-		@include span(0.25 of 1)
+		display: block
+		text-align: center
+		@include span(1 of $susy_social)
 			&:last-child
-				@include span(0.25 last of 1)
+				@include span(last 1 of $susy_social)
 		text-decoration: none
 		color: $psi-white
 		cursor: pointer
-		
-		@include breakpoint($bp-sml)
-			margin: 0
-			padding: 0
-			float: none
 			
 		&:hover, &:active
 			color: $psi-yellow
