@@ -63,118 +63,90 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 14, ../sass/base/_typography.sass */
+/* Typography using rem */
+/* Line-height of 1.5 */
+/* 16px font, 24px line-height */
+/* Major Third */
+/* 1.25 font scale ratio */
+/* line 20, ../sass/base/_typographyMajorThird.sass */
 body {
   font-family: "Noto Sans", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.5;
 }
 
-/* line 19, ../sass/base/_typography.sass */
+/* line 25, ../sass/base/_typographyMajorThird.sass */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Oxygen", Helvetica, Arial, sans-serif;
   font-weight: 700;
-  margin: 0;
+  margin: 0 0 1.5rem 0;
 }
 
-/* line 23, ../sass/base/_typography.sass */
+/* line 29, ../sass/base/_typographyMajorThird.sass */
 h1 {
-  font-size: 3em;
-  line-height: 1;
-  margin-bottom: 0.5em;
+  font-size: 3.052rem;
+  line-height: 4.5rem;
 }
 
-/* line 27, ../sass/base/_typography.sass */
+/* line 33, ../sass/base/_typographyMajorThird.sass */
 h2 {
-  font-size: 36px;
-  line-height: 48px;
-  margin-bottom: 0.66667em;
+  font-size: 2.441rem;
+  line-height: 3rem;
 }
 
-/* line 31, ../sass/base/_typography.sass */
+/* line 39, ../sass/base/_typographyMajorThird.sass */
 h3 {
-  font-size: 1.5em;
-  line-height: 1;
-  margin-bottom: 1em;
+  font-size: 1.953rem;
+  line-height: 3rem;
 }
 
-/* line 35, ../sass/base/_typography.sass */
+/* line 43, ../sass/base/_typographyMajorThird.sass */
 h4 {
-  font-size: 1.3125em;
-  line-height: 1.14286;
-  margin-bottom: 1.14286em;
+  font-size: 1.563rem;
+  line-height: 1.5rem;
 }
 
-/* line 39, ../sass/base/_typography.sass */
+/* line 47, ../sass/base/_typographyMajorThird.sass */
 h5 {
-  font-size: 1.125em;
-  line-height: 1.33333;
-  margin-bottom: 1.33333em;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
 }
 
-/* line 43, ../sass/base/_typography.sass */
+/* line 51, ../sass/base/_typographyMajorThird.sass */
 h6 {
   font-size: 1em;
-  line-height: 1.5;
-  margin-bottom: 1.5em;
+  line-height: 1.5rem;
 }
 
-/* line 47, ../sass/base/_typography.sass */
+/* line 55, ../sass/base/_typographyMajorThird.sass */
 p {
   font-size: 1em;
-  line-height: 1.5;
-  margin-bottom: 1.5em;
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
-/* line 51, ../sass/base/_typography.sass */
+/* line 59, ../sass/base/_typographyMajorThird.sass */
 blockquote {
   background-color: rgba(150, 150, 150, 0.5);
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   border-left: 2px solid black;
   border-right: 2px solid black;
-  padding-left: 1em;
-  padding-right: 1em;
-  margin-bottom: 1.5em;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 1.5rem;
 }
-/* line 60, ../sass/base/_typography.sass */
+/* line 68, ../sass/base/_typographyMajorThird.sass */
 blockquote p {
   margin: 0;
   font-family: "Noto Serif", serif;
   font-style: italic;
 }
 
-/* line 64, ../sass/base/_typography.sass */
+/* line 72, ../sass/base/_typographyMajorThird.sass */
 a {
   text-decoration: none;
   color: #5a1e25;
-}
-
-/* line 1, ../sass/modules/_main-area.sass */
-.main-area {
-  background-color: #edf1f4;
-  height: 100vh;
-  max-width: 100%;
-  padding-top: 1.5em;
-  margin: 0 auto;
-}
-@media (min-width: 768px) {
-  /* line 1, ../sass/modules/_main-area.sass */
-  .main-area {
-    max-width: 800px;
-  }
-}
-@media (min-width: 992px) {
-  /* line 1, ../sass/modules/_main-area.sass */
-  .main-area {
-    max-width: 1000px;
-  }
-}
-@media (min-width: 1200px) {
-  /* line 1, ../sass/modules/_main-area.sass */
-  .main-area {
-    max-width: 1200px;
-  }
 }
 
 /* line 1, ../sass/modules/_topbar.sass */
@@ -378,14 +350,67 @@ a {
   color: #fbf6a6;
 }
 
-/* line 15, ../sass/style.sass */
+/* line 1, ../sass/modules/_main-area.sass */
+.main-area {
+  background-color: #edf1f4;
+  max-width: 100%;
+  padding-top: 1.5rem;
+  margin: 0 auto 1.5rem;
+}
+@media (min-width: 768px) {
+  /* line 1, ../sass/modules/_main-area.sass */
+  .main-area {
+    max-width: 800px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 1, ../sass/modules/_main-area.sass */
+  .main-area {
+    max-width: 1000px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 1, ../sass/modules/_main-area.sass */
+  .main-area {
+    max-width: 1200px;
+  }
+}
+
+/* line 1, ../sass/modules/_footer.sass */
+.main-footer {
+  background-color: #373737;
+}
+
+/* line 4, ../sass/modules/_footer.sass */
+.footer-widget {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+@media (min-width: 768px) {
+  /* line 4, ../sass/modules/_footer.sass */
+  .footer-widget {
+    width: 47.36842%;
+    float: left;
+    margin-right: 5.26316%;
+  }
+  /* line 8, ../sass/modules/_footer.sass */
+  .footer-widget:last-child {
+    width: 23.07692%;
+    float: right;
+    margin-right: 0;
+  }
+}
+
+/* line 16, ../sass/style.sass */
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 18, ../sass/style.sass */
+/* line 19, ../sass/style.sass */
 body {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiM1YTFlMjUiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNiMTNhMzAiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
   background-size: 100%;
@@ -395,7 +420,7 @@ body {
   background-image: linear-gradient(#5a1e25 50%, #b13a30);
 }
 
-/* line 25, ../sass/style.sass */
+/* line 26, ../sass/style.sass */
 .wrapper {
   max-width: 570px;
   margin-left: auto;
@@ -415,7 +440,7 @@ body {
   clear: both;
 }
 @media (min-width: 768px) {
-  /* line 25, ../sass/style.sass */
+  /* line 26, ../sass/style.sass */
   .wrapper {
     max-width: 770px;
     margin-left: auto;
@@ -429,7 +454,7 @@ body {
   }
 }
 @media (min-width: 992px) {
-  /* line 25, ../sass/style.sass */
+  /* line 26, ../sass/style.sass */
   .wrapper {
     max-width: 970px;
     margin-left: auto;
@@ -443,7 +468,7 @@ body {
   }
 }
 @media (min-width: 1200px) {
-  /* line 25, ../sass/style.sass */
+  /* line 26, ../sass/style.sass */
   .wrapper {
     max-width: 1170px;
     margin-left: auto;
@@ -455,41 +480,4 @@ body {
     display: block;
     clear: both;
   }
-}
-
-/* line 1, ../sass/base/_troubleshoot.sass */
-html {
-  background-image: -webkit-linear-gradient(transparent 95%, rgba(159, 96, 96, 0.5) 95%);
-  background-image: -moz-linear-gradient(transparent 95%, rgba(159, 96, 96, 0.5) 95%);
-  background-image: -ms-linear-gradient(transparent 95%, rgba(159, 96, 96, 0.5) 95%);
-  background-image: -o-linear-gradient(transparent 95%, rgba(159, 96, 96, 0.5) 95%);
-  background-image: linear-gradient(rgba(0, 0, 0, 0) 95%, rgba(159, 96, 96, 0.5) 95%);
-  background-position: 50% 0;
-  background-size: 1.5em 1.5em;
-  margin: 0;
-}
-
-/* line 11, ../sass/base/_troubleshoot.sass */
-body {
-  background: none;
-}
-
-/* line 14, ../sass/base/_troubleshoot.sass */
-h1, h2, h3, h4, h5, h6, p {
-  background-color: rgba(100, 100, 100, 0.25);
-}
-
-/* line 17, ../sass/base/_troubleshoot.sass */
-.main-area {
-  background: rgba(200, 200, 200, 0.25);
-}
-
-/* line 20, ../sass/base/_troubleshoot.sass */
-.topbar {
-  background-color: rgba(200, 150, 150, 0.5);
-}
-
-/* line 23, ../sass/base/_troubleshoot.sass */
-.top-header {
-  background-color: rgba(150, 150, 150, 0.5);
 }

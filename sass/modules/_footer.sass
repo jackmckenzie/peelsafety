@@ -1,0 +1,9 @@
+.main-footer
+	background-color: $psi-grey 
+	
+.footer-widget
+	@include span(6)
+	@include breakpoint(($bp-sml))
+		@include span(3)
+		&:last-child
+			@include span(last 3 of 12)
