@@ -1,9 +1,64 @@
 .main-footer
 	background-color: $psi-grey 
-	
+.footer-widgets
+	padding-top: 1.5rem
 .footer-widget
+	color: lighten($psi-grey, 50%)
 	@include span(6)
 	@include breakpoint(($bp-sml))
-		@include span(3)
+		@include span(4 of 8)
+		&:nth-child(2)
+			@include span(last 4 of 8)
+		&:last-child
+			@include span(last 4 of 8)
+	@include breakpoint(($bp-md))
+		@include span(3 of 12)
+		&:nth-child(2)
+			@include span(3 of 12)
 		&:last-child
 			@include span(last 3 of 12)
+.footer-bottom
+	@include box-sizing(border-box)
+	color: lighten($psi-grey, 25%)
+	// @include background-image(repeating-linear-gradient(135deg, lighten($psi-grey, 2%), lighten($psi-grey, 2%) 10px, $psi-grey 10px, $psi-grey 20px))
+	// border-top: 1px solid $psi-grey-s
+	background-color: $psi-grey-s
+.copyright
+	font-size: 0.8rem /* 12.8px */
+	// font-style: italic
+	// color: $psi-yellow
+	// line-height: 1.5rem
+	// background-color: red
+	margin-bottom: 0
+	margin-top: (1.5rem) / 2
+	margin-bottom: (1.5rem) / 2
+	@include span (2 of 6)
+	@include breakpoint($bp-sml)
+		@include span(4 of 8)
+	@include breakpoint($bp-md)
+		@include span(3 of 12)
+	// @include breakpoint($bp-lg)
+	// 	@include span(3 of 12)
+
+.back-to-top
+	// display: block
+	@include span (last 2 of 6)
+	@include breakpoint($bp-sml)
+		@include span(last 4 of 8)
+	@include breakpoint($bp-md)
+		@include span(last 1 of 12)
+	text-align: center
+	// background-color: rgba(200,200,200,0.25)
+	a
+		float: right
+		display: block
+		// width: 3.5rem
+		padding: 0.25rem 0.5rem
+		margin-top: 6px
+		margin-bottom: 6px
+		background-color: $psi-red-s
+		i
+			font-size: 2rem
+			line-height: 1.5rem
+			// margin-top: 0.5rem
+			// margin-bottom: 0.5rem
