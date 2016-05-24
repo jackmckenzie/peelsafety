@@ -456,3 +456,40 @@ body {
     clear: both;
   }
 }
+
+/* line 1, ../sass/base/_troubleshoot.sass */
+html {
+  background-image: -webkit-linear-gradient(transparent 95%, rgba(159, 96, 96, 0.5) 95%);
+  background-image: -moz-linear-gradient(transparent 95%, rgba(159, 96, 96, 0.5) 95%);
+  background-image: -ms-linear-gradient(transparent 95%, rgba(159, 96, 96, 0.5) 95%);
+  background-image: -o-linear-gradient(transparent 95%, rgba(159, 96, 96, 0.5) 95%);
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 95%, rgba(159, 96, 96, 0.5) 95%);
+  background-position: 50% 0;
+  background-size: 1.5em 1.5em;
+  margin: 0;
+}
+
+/* line 11, ../sass/base/_troubleshoot.sass */
+body {
+  background: none;
+}
+
+/* line 14, ../sass/base/_troubleshoot.sass */
+h1, h2, h3, h4, h5, h6, p {
+  background-color: rgba(100, 100, 100, 0.25);
+}
+
+/* line 17, ../sass/base/_troubleshoot.sass */
+.main-area {
+  background: rgba(200, 200, 200, 0.25);
+}
+
+/* line 20, ../sass/base/_troubleshoot.sass */
+.topbar {
+  background-color: rgba(200, 150, 150, 0.5);
+}
+
+/* line 23, ../sass/base/_troubleshoot.sass */
+.top-header {
+  background-color: rgba(150, 150, 150, 0.5);
+}
