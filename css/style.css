@@ -517,48 +517,48 @@ a {
   width: 23.07692%;
   float: left;
   margin-right: 2.5641%;
+  margin-bottom: 1.5rem;
+  min-height: 20rem;
 }
-/* line 7, ../sass/views/_courses.sass */
+/* line 9, ../sass/views/_courses.sass */
 .course-widget h4 {
-  color: #edf1f4;
-  padding: 1.5rem;
-  display: block;
   text-transform: uppercase;
   text-align: center;
 }
-/* line 15, ../sass/views/_courses.sass */
+/* line 17, ../sass/views/_courses.sass */
 .course-widget h4 a {
-  display: block;
   color: #edf1f4;
+  padding: 1.5rem;
+  display: block;
 }
-/* line 18, ../sass/views/_courses.sass */
+/* line 22, ../sass/views/_courses.sass */
 .course-widget ul {
   padding: 0 1.5rem 1.5rem;
 }
 
-/* line 21, ../sass/views/_courses.sass */
+/* line 26, ../sass/views/_courses.sass */
 .course-construction {
   background-color: #e29665;
 }
-/* line 23, ../sass/views/_courses.sass */
+/* line 28, ../sass/views/_courses.sass */
 .course-construction h4 {
   background-color: #c08056;
 }
 
-/* line 25, ../sass/views/_courses.sass */
+/* line 30, ../sass/views/_courses.sass */
 .course-accounting {
   background-color: #65c7e2;
 }
-/* line 27, ../sass/views/_courses.sass */
+/* line 32, ../sass/views/_courses.sass */
 .course-accounting h4 {
   background-color: #56a9c0;
 }
 
-/* line 29, ../sass/views/_courses.sass */
+/* line 34, ../sass/views/_courses.sass */
 .course-whs {
   background-color: #e2dc63;
 }
-/* line 31, ../sass/views/_courses.sass */
+/* line 36, ../sass/views/_courses.sass */
 .course-whs h4 {
   background-color: #c0bb54;
 }
